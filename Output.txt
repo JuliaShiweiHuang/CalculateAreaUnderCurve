@@ -1,0 +1,15 @@
+Output
+
+- The program should display the minimum number of intervals needed such that the difference
+between the upper and lower sums is less than or equal to ǫ. If the region has been divided into
+more than 2000 intervals and the sum is still not within ǫ, a message to that effect should be
+displayed. In either case, the two sums should be displayed.
+
+Sample Output
+
+>>> Function chosen: 1
+>>> Rightmost x: 2.0
+>>> Epsilon: 0.02
+>>> Number of intervals needed: 400
+>>> Upper sum: 2.6767
+>>> Lower sum: 2.6567
