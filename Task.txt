@@ -1,0 +1,19 @@
+Task
+
+One of the main problems that spawned the invention of Calculus was that of finding the area of a
+region under a curve defined by a function, such as f(x) = x^2 and f(x) = x^0.5+1
+
+One way to estimate such an area is to divide it into rectangular subregions, with either the left or right endpoint being equal to the
+value of the function. The area of the region is found by summing the areas of all the rectangular
+subregions. In a function that grows positively, if the left endpoint is used, then the sum of the
+rectangles must be less than the true area, and is thus called the lower sum. Conversely, if the
+right endpoint is used, the sum is greater than the true area and is therefore called the upper
+sum. A good estimate for the true area can be found if the upper sum is “close to” the lower sum.
+The values are “close to” one another if their difference is less than or equal to some value, defined
+as ǫ. The upper and lower sums converge as the number of intervals, i.e., the number of rectangles,
+increases.
+
+You are to write a program that will find a good estimate of the area of a region beneath two
+different functions: f(x) = x^2 and f(x) = x^0.5+1
+
+Call these functions 1 and 2, respectively
